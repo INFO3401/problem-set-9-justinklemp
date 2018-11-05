@@ -87,7 +87,7 @@ candy_data_curation.parserFile('candy-data.csv')
     #Attached in B & C
     
     
-----------
+#----------
     
 
                                         #Wednesday//Friday:
@@ -95,10 +95,10 @@ candy_data_curation.parserFile('candy-data.csv')
 #####PROBLEM 3#####
 
 candy_line_analysis = LinearAnalysis('sugarpercent')
-candy_line_analysis.runSimpleAnalysis(candy_analysis)
+candy_line_analysis.runSimpleAnalysis(candy_data_curation)
 
 
-----------
+#----------
 
 #Link to additional source(s) we used to help:
 #http://scikitlearn.org/stable/auto_examples/linear_model/plot_ols.html/https://dziganto.github.io/classes/data%20science/linear%20regression/machine%20learning/object-oriented%20programming/python/Understanding-Object-Oriented-Programming-Through-Machine-Learning/
